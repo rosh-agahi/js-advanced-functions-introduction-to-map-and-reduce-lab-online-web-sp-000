@@ -32,10 +32,3 @@ function reduceToAllTrue(sourceArray) {
   return true;
 }
 
-function reduceToAnyTrue(sourceArray) {
-  let sum;
-  for (let i of sourceArray) {
-    if (i) return true;
-  }
-  return false;
-}

@@ -33,9 +33,9 @@ function reduceToAllTrue(sourceArray) {
 function reduceToAnyTrue(sourceArray) {
   for (let i of sourceArray) {
     if (i)
-    return true;
-    else return false;
-  }
+    return true;}
+    return false;
+  
 }
 
 

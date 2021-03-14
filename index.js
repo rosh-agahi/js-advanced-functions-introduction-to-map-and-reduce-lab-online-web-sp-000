@@ -24,8 +24,6 @@ function reduceToTotal(sourceArray, startingPoint=0) {
 }
 
 function reduceToAllTrue(sourceArray) {
-  let sum;
-  
   for (let i of sourceArray) {
     if (!i) return false;
   }

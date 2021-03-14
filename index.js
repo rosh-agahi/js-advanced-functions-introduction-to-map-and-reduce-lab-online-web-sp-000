@@ -15,10 +15,4 @@ function mapToSquare(sourceArray){
   return sourceArray.map(x => x ** 2);
 }
 
-function reduceToTotal(sourceArray, startingPoint=0) => {
-    let total = startingPoint;
-    for(let num of sourceArray){
-        total = total + num;
-    }
-    return total;
-}
+

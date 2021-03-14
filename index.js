@@ -30,3 +30,11 @@ function reduceToAllTrue(sourceArray) {
   return true;
 }
 
+function reduceToAnyTrue(sourceArray) {
+  for (let i of sourceArray) {
+    if (!i) return false;
+  }
+  return true;
+}
+
+

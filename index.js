@@ -4,7 +4,7 @@ function mapToNegativize(sourceArray){
 }
 
 function mapToNoChange(sourceArray){
-  return sourceArray.map(x => x * 1);
+  return sourceArray.map(x => x);
 }
 
 function mapToDouble(sourceArray){

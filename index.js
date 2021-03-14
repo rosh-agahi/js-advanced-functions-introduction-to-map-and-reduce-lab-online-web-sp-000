@@ -15,5 +15,11 @@ function mapToSquare(sourceArray){
   return sourceArray.map(x => x**2);
 }
 
-function 
+function reduceToTotal(sourceArray, startingPoint=0) {
+  let sum = startingPoint;
+  for (let i = 0; i < sourceArray.length; i++) {
+      sum = sourceArray[i]+ sum;
+    }
+  return parseInt(sum);
+}
 

@@ -8,9 +8,9 @@ function mapToNoChange(sourceArray){
 }
 
 function mapToDouble(sourceArray){
-  return sourceArray.map(x => x * 1);
+  return sourceArray.map(x => x * 2);
 }
 
-function mapToNoChange(sourceArray){
-  return sourceArray.map(x => x * 1);
+function mapToSquare(sourceArray){
+  return sourceArray.map(x => x ** 2);
 }

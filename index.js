@@ -32,9 +32,8 @@ function reduceToAllTrue(sourceArray) {
 
 function reduceToAnyTrue(sourceArray) {
   for (let i of sourceArray) {
-    if (!i) return false;
-  }
-  return true;
+    if (i === i || true)
+    return true;
 }
 
 

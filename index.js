@@ -32,7 +32,10 @@ function reduceToAllTrue(sourceArray) {
 
 function reduceToAnyTrue(sourceArray) {
   for (let i of sourceArray) {
-    if (i !== i || i === i);}
+    if (i !== i || i === i)
+    return true;
+    else return false;
+  }
 }
 
 
